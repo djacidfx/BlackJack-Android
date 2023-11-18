@@ -1,0 +1,54 @@
+<html lang="en">
+	<head>
+		<title>Blackjack 21</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+		<meta name="msapplication-tap-highlight" content="no"/>
+		<link href="#" color="#f7a31c" rel="mask-icon">
+		<script src="lib/howler.js"></script>
+		<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+			width: 100%;
+			background-image:url('./images/back_menu.png');
+			overflow: hidden;
+		}	
+
+		canvas {	
+			/*image-rendering: optimizeSpeed;*/         
+			/*image-rendering: -moz-crisp-edges;*/        
+			/*image-rendering: -webkit-optimize-contrast; */
+			/*image-rendering: -o-crisp-edges;  */
+			/*image-rendering: optimize-contrast;*/
+			image-rendering: auto !important;
+
+			/*-ms-interpolation-mode: nearest-neighbor;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			-moz-tap-highlight-color: rgba(0,0,0,0);
+			tap-highlight-color: rgba(0,0,0,0);*/
+			user-select: none;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			top: 0px !important;
+			position: absolute;
+			
+			/*
+			width:100% !important;
+			*/
+		} 
+		</style>
+	</head>
+	
+	<body> 
+		<div id="viewporter" style="margin: 0px;">
+		   <canvas id="canvas" ></canvas>
+		</div>
+		
+		<script src="lib/engine.js"></script>
+		<script src="game.js"></script>
+		<script src="hooks.js"></script>
+	</body>
+</html>
