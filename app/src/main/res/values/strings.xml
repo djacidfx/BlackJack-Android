@@ -1,23 +1,23 @@
 <resources>
-    <string name="app_name">Game</string>
+    <string name="app_name">21 BlackJack</string>
 
-    <bool name="is_testing">true</bool>
+    <bool name="is_testing">false</bool>
 
     <bool name="enable_banner">true</bool>
         <bool name="banner_at_bottom">true</bool>
         <bool name="banner_not_overlap">true</bool>
-        <string name="id_banner">ca-app-pub-3940256099942544/6300978111</string>
+        <string name="id_banner">ca-app-pub-2916714021613915/3435942816</string>
 
     <bool name="enable_inter">true</bool>
-        <string name="id_inter">ca-app-pub-3940256099942544/1033173712</string>
+        <string name="id_inter">ca-app-pub-2916714021613915/2675742529</string>
 
     <bool name="enable_gdpr">true</bool>
         <bool name="under_age">false</bool>
-        <string name="privacy_url">https://sites.google.com/view/gradlegames/privacy</string>
+        <string name="privacy_url">hhttps://mywild.work/privacy</string>
         <string name="privacy_policy">Privacy Policy</string>
-        <string name="privacy_email">gradlecode@outlook.com</string>
+        <string name="privacy_email">djacidburn1877@gmail.com</string>
 
-    <string name="share_description">Try this new game</string>
+    <string name="share_description">Check out this blackjack game I found</string>
 
     <bool name="full_screen">true</bool>
     <string name="image_content">image</string>
